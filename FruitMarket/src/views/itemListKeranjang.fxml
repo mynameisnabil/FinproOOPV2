@@ -8,34 +8,37 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 
-<HBox fx:id="itemBookRow" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity"
-    minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="825.0" spacing="0"
-    style="-fx-background-color: #02030A; -fx-background-radius: 5; -fx-background-insets: 0;"
-    xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<HBox alignment="CENTER_LEFT"
+    layoutX="18.0"
+    layoutY="98.0"
+    prefHeight="42.0"
+    prefWidth="1250.0"
+    spacing="80.0"
+    style="-fx-background-color: #FFFF;">
     <children>
-        <Label fx:id="idBook" prefWidth="10" text="1" textFill="#b7c3d7">
+        <Label text="1"
+            textFill="#000000">
             <HBox.margin>
-                <Insets left="30.0" right="80" />
+                <Insets left="50" />
             </HBox.margin>
         </Label>
-
-        <Label fx:id="bookTitle" prefWidth="230" text="#" textFill="#b7c3d7">
+        <Label text="Apple"
+            textFill="#000000">
             <HBox.margin>
-                <Insets />
+                <Insets left="150" />
             </HBox.margin>
         </Label>
-        <Label fx:id="bookAuthor" prefWidth="150" text="#" textFill="#b7c3d7">
+        <Label text="5"
+            textFill="#000000">
             <HBox.margin>
-                <Insets />
+                <Insets left="200" />
             </HBox.margin>
         </Label>
-        <Label fx:id="bookPrice" text="300.000" textFill="#b7c3d7">
+        <Label text="50.000"
+            textFill="#000000">
             <HBox.margin>
-                <Insets />
+                <Insets left="370" right="50" />
             </HBox.margin>
         </Label>
     </children>
-    <effect>
-        <DropShadow blurType="GAUSSIAN" height="5.0" radius="2.0" width="5.0" />
-    </effect>
 </HBox>

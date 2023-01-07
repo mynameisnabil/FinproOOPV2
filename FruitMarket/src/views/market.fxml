@@ -73,9 +73,9 @@
                                     <Font name="Cambria" size="36.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="fruitPriceLabel" prefHeight="57.0" prefWidth="171.0" text="\$2.99" textFill="WHITE">
+                              <Label fx:id="fruitPriceLabel" prefHeight="57.0" prefWidth="171.0" text="Rp.2.99" textFill="WHITE">
                                  <font>
-                                    <Font name="Cambria" size="36.0" />
+                                    <Font name="Cambria" size="18.0" />
                                  </font>
                               </Label>
                            </children>
@@ -98,13 +98,14 @@
                                     <Font name="Cambria" size="24.0" />
                                  </font>
                               </Label>
-                              <TextField fx:id="IDdropdownKg" prefHeight="45.0" prefWidth="130.0" promptText="1" styleClass="comboBox" stylesheets="@../values/style.css" />
+                              <TextField fx:id="IdtextFieldbanyak" prefHeight="45.0" prefWidth="130.0" promptText="1" styleClass="comboBox" stylesheets="@../values/style.css" />
                            </children>
                            <VBox.margin>
                               <Insets top="20.0" />
                            </VBox.margin>
                         </HBox>
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" styleClass="add-btn" stylesheets="@../values/style.css" text="ADD TO CART" textFill="#828282">
+
+                        <Button fx:id="IdButtonCalculateByKg" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" styleClass="add-btn" stylesheets="@../values/style.css" text="Calculate" textFill="#828282">
                            <VBox.margin>
                               <Insets bottom="20.0" top="30.0" />
                            </VBox.margin>
@@ -112,6 +113,17 @@
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Button>
+                        
+                        <Button fx:id="IdButtonToChart" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" styleClass="add-btn" stylesheets="@../values/style.css" text="ADD TO CART" textFill="#828282">
+                           <VBox.margin>
+                              <Insets bottom="20.0" top="30.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+
+                        
                      </children>
                      <styleClass>
                         <String fx:value="chosen-fruit-card" />

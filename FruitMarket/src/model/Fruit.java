@@ -3,7 +3,7 @@ package model;
 public class Fruit {
     private String name;
     private String imgSrc;
-    private double price;
+    private int price;
     private String color;
 
     public String getName() {
@@ -22,11 +22,11 @@ public class Fruit {
         this.imgSrc = imgSrc;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 

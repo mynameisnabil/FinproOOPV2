@@ -29,6 +29,7 @@ public class ItemController {
 
     private Fruit fruit;
     private MyListener myListener;
+    
 
     public void setData(Fruit fruit, MyListener myListener) {
         this.fruit = fruit;

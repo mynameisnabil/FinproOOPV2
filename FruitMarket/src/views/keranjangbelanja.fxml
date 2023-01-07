@@ -24,7 +24,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
    prefHeight="810.0" prefWidth="1315.0" xmlns="http://javafx.com/javafx/8.0.171"
-   xmlns:fx="http://javafx.com/fxml/1">
+   xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.KeranjangController">
    <children>
       <Label layoutX="36.0" layoutY="34.0" text="Keranjang" textFill="#000000">
          <font>
@@ -69,7 +69,7 @@
       <ScrollPane layoutX="18.0" layoutY="152.0" prefHeight="500.0" prefWidth="1250.0"
          stylesheets="@../../css/fullpackstyling.css">
          <content>
-            <VBox fx:id="pnItemsBook" prefHeight="500.0" prefWidth="1250.0" spacing="5.0"
+            <VBox fx:id="idListKeranjang" prefHeight="500.0" prefWidth="1250.0" spacing="5.0"
                style="-fx-background-color: #FFFF;">
                <padding>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
@@ -77,5 +77,10 @@
             </VBox>
          </content>
       </ScrollPane>
+      <Label layoutX="36.0" layoutY="700.0" text="Total :" textFill="#000000">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
